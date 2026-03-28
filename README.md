@@ -42,7 +42,7 @@ That's it. The widget fetches data from the BirdFYI API and renders with full st
 | `data-birdfyi` | entity, compare, glossary, guide, search, [tools] | required | Widget type |
 | `data-slug` | e.g. "birds" | — | Entity slug from the BirdFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, organic | modern | Widget design style |
+| `data-styleVariant` | modern, organic | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Birds..." | Search box placeholder |
 
@@ -66,10 +66,10 @@ That's it. The widget fetches data from the BirdFYI API and renders with full st
 
 ```html
 <!-- Modern (default) — clean lines, rounded corners, accent gradients -->
-<div data-birdfyi="entity" data-slug="birds" data-style="modern"></div>
+<div data-birdfyi="entity" data-slug="birds" data-styleVariant="modern"></div>
 
 <!-- Organic — natural curves, earth-tone aesthetics, field-guide look -->
-<div data-birdfyi="entity" data-slug="birds" data-style="organic"></div>
+<div data-birdfyi="entity" data-slug="birds" data-styleVariant="organic"></div>
 ```
 
 ## Web Components (Custom Elements)
