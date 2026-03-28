@@ -1,0 +1,42 @@
+{
+  "name": "birdfyi-embed",
+  "version": "1.0.0",
+  "description": "Embed BirdFYI ornithology widgets — bird cards, IUCN badges, Xeno-canto audio links. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "bird",
+    "ornithology",
+    "wingspan",
+    "conservation",
+    "xeno-canto",
+    "habitat",
+    "embed",
+    "widget",
+    "birdfyi",
+    "birdfyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "naturefyi"
+  ],
+  "homepage": "https://widget.birdfyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/birdfyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/birdfyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
