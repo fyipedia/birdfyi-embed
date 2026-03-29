@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# BirdFYI Embed Widget
+# Main site: https://birdfyi.com
+# Widget docs: https://widget.birdfyi.com
+# npm: https://www.npmjs.com/package/birdfyi-embed
