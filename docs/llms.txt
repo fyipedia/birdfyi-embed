@@ -1,21 +1,50 @@
 # BirdFYI Embed Widget
 
-> Embeddable BirdFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> 11,251 birds, families, conservation. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/birdfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/birdfyi-embed@1/dist/embed.min.js"></script>
+<div data-birdfyi="iucn-badge" data-slug="example"></div>
+```
+
+## Available Widget Types (6)
+
+- entity: `data-birdfyi="entity"`
+- glossary: `data-birdfyi="glossary"`
+- guide: `data-birdfyi="guide"`
+- compare: `data-birdfyi="compare"`
+- search: `data-birdfyi="search"`
+- iucn-badge (interactive): `data-birdfyi="iucn-badge"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-birdfyi="iucn-badge" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/birdfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://birdfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://birdfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://birdfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://birdfyi.com
 - Widget docs: https://widget.birdfyi.com
-- npm: https://www.npmjs.com/package/birdfyi-embed
+- API documentation: https://birdfyi.com/developers/
+- npm package: https://www.npmjs.com/package/birdfyi-embed
 - GitHub: https://github.com/fyipedia/birdfyi-embed
-- API: https://birdfyi.com/developers/
 
-## Nature FYI Widget Family
+## Nature FYI Widget Network
 
 - [SpeciesFYI Widget](https://widget.speciesfyi.com)
 - [FishFYI Widget](https://widget.fishfyi.com)
